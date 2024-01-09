@@ -559,6 +559,10 @@ video {
   display: flex;
 }
 
+.grid{
+  display: grid;
+}
+
 .hidden{
   display: none;
 }
@@ -567,8 +571,24 @@ video {
   width: 100%;
 }
 
+.w-\[400px\]{
+  width: 400px;
+}
+
+.w-\[00px\]{
+  width: 00px;
+}
+
+.w-\[600px\]{
+  width: 600px;
+}
+
 .max-w-\[1640px\]{
   max-width: 1640px;
+}
+
+.place-content-center{
+  place-content: center;
 }
 
 .items-center{
@@ -577,6 +597,10 @@ video {
 
 .justify-between{
   justify-content: space-between;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .gap-3{
@@ -593,8 +617,38 @@ video {
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 
+.object-cover{
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 .p-4{
   padding: 1rem;
+}
+
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-6{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-blue-600{
+  --tw-text-opacity: 1;
+  color: rgb(37 99 235 / var(--tw-text-opacity));
 }
 
 *{
@@ -607,6 +661,10 @@ body{
   width: 100%;
   min-height: 100vh;
   font-family: 'Open Sans', sans-serif;
+}
+
+.title{
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
 @media (min-width: 640px){
