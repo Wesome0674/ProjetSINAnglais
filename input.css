@@ -1,4 +1,4 @@
-@import url('https://fonts.cdnfonts.com/css/open-sans');
+@import url('https://fonts.cdnfonts.com/css/switzer');
 
 @tailwind base;
 @tailwind components;
@@ -13,9 +13,5 @@
 body{
     width: 100%;
     min-height: 100vh;
-    font-family: 'Open Sans', sans-serif;
 }
 
-.title{
-    font-family: 'Open Sans Condensed', sans-serif;
-}
