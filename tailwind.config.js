@@ -2,13 +2,14 @@
 module.exports = {
   content: ["./**/*.{html,js}"],
   theme: {
-    colors: {
-      'principal': '#E6DEFC',
-      'second': '#171412'
-    },
     extend: {
+      colors:{
+        'principal': '#E6DEFC',
+        'second': '#171412'
+      },
       fontFamily: {
-        'switzer': ['Switzer', sans-serif],
+        switzer: ['Switzer'],
+        climate: [ 'Climate Crisis'],
       }
     },
   },
